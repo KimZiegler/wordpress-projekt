@@ -1,0 +1,98 @@
+#page {
+    @extend .container;
+}
+#masthead, #content, #colophon {
+    @extend .row;
+    @extend .mb-2;
+}
+#masthead {
+    align-items: center;
+    height: 50px;
+}
+.site-branding {
+    @extend .col-md-4;
+    .site-title {
+        font-size: 1em;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+}
+#site-navigation {
+    @extend .col-md-8;
+    display: flex;
+    justify-content: flex-end;
+    li {
+        margin-left: 2em;
+    }
+}
+#primary {
+    @extend .col-md-12;
+    max-width: 100%;
+}
+//forside page
+#primary-full {
+@extend .col-12;
+.entry-title {
+    display: none;
+}
+}
+#secondary {
+    @extend .col-md-12;
+}
+.site-info {
+    @extend .col-12;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin-bottom: 0;
+    }
+}
+.stripe-card-group {
+    width: 100%!important;
+}
+.stripe-card-element {
+    width: 100%;
+}
+h1, .h1 {
+    font-size: 2.5rem;
+    display: none;
+}
+.lead {
+    font-size: 3.25rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    background: black;
+}
+.woocommerce .woocommerce-result-count {
+    margin: 0 0 1em;
+    display: none;
+}
+.woocommerce .woocommerce-ordering {
+    margin: 0 0 1em;
+    display: none;
+}
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border-radius: 0.3rem;
+}
+.front-tag{
+    color: white;
+}
